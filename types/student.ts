@@ -24,6 +24,7 @@ export interface Course {
 }
 
 export interface FormErrors {
+  profileImage: ReactNode
   name?: string
   email?: string
   course?: string
