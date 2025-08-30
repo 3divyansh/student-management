@@ -1,0 +1,13 @@
+/**
+ * EDUCATIONAL NOTE: Reusable Loading Component
+ * This demonstrates component composition and CSS animations.
+ */
+
+export function LoadingSpinner() {
+  return (
+    <div className="flex flex-col items-center justify-center space-y-4">
+      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+      <p className="text-muted-foreground">Loading student data...</p>
+    </div>
+  )
+}
